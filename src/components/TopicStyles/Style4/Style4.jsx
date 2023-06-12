@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-function Style4({ topic, textContent, link }) {
+function Style4({ src, topic, textContent, link }) {
   return (
     <Container>
       <ImgContainer>
-        <Image src="/images/laptop.jpg" alt="image" />
+        <Image src={src} alt="image" />
       </ImgContainer>
       <TopicName>{topic}</TopicName>
       <TextContent>

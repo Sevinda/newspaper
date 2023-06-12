@@ -7,6 +7,7 @@ function Style5_6Container() {
   return (
     <Container>
       <Style5
+        src="/images/champika_ranawaka.jpg"
         topic="Topic 6"
         textContent="Lorem ipsum dolor sit amet consectetur adipisi
         cing elit. Non quos ipsam fuga laudantium mollitia sint, placeat 

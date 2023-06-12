@@ -10,7 +10,7 @@ function MainSlide({ imgSrc, maintitle, subtitle }) {
           <p>{subtitle}</p>
         </TextContent>
 
-        <PictureContainer src={imgSrc} alt="sample_image" />
+        <PictureContainer src={imgSrc} alt="main slide image" />
       </MainContainer>
     </>
   );

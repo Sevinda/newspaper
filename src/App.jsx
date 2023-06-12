@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Hero />
       <MainSlide
-        imgSrc="/images/laptop.jpg"
-        maintitle="Laptop"
-        subtitle="Code like your life depends on it!"
+        imgSrc="/images/train_accident.webp"
+        maintitle="Train Accident"
+        subtitle="14 people died and 40 injured in a train accident in India."
       />
       <Style1Container />
       <Style2
@@ -60,6 +60,7 @@ function App() {
         link="#"
       />
       <Style4
+        src={"/images/parliament_image.jpg"}
         topic="Topic 5"
         textContent="Lorem ipsum dolor sit amet consectetur adipisi
         cing elit. Non quos ipsam fuga laudantium mollitia sint, placeat 

@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-function Style5({ topic, textContent, link }) {
+function Style5({ src, topic, textContent, link }) {
   return (
     <Container>
       <TopicName>{topic}</TopicName>
       <ImgContainer>
-        <Image src="/images/laptop.jpg" alt="image" />
+        <Image src={src} alt="image" />
       </ImgContainer>
       <TextContent>
         {textContent}
