@@ -60,7 +60,7 @@ function App() {
         link="#"
       />
       <Style4
-        src={"/images/parliament_image.jpg"}
+        src="/images/parliament_image.jpg"
         topic="Topic 5"
         textContent="Lorem ipsum dolor sit amet consectetur adipisi
         cing elit. Non quos ipsam fuga laudantium mollitia sint, placeat 
